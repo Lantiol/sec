@@ -6,7 +6,7 @@
     left: 0;
     right: 0;
     z-index: 99;
-    padding: 30px 15px;
+    
     
 }
 .img-logo{
@@ -25,7 +25,7 @@ div.menu{
     align-items: center;
 }
 .banner-text{
-    margin-top: 164px;
+    margin-top: 104px;
 }
 .menu-nav-link{
     font-size: 20px;
@@ -35,4 +35,29 @@ div.menu{
 }
 .menu-nav-link:visited{
     color: rgb(32, 30, 30);
+}
+.section-banner{
+    background: url(imges/3132.jpg);
+    background-size: cover;
+    
+}
+.banner-text-header{
+    text-align: center;
+}
+.banner-text-body{
+    text-align: center;
+}
+div.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.footer{
+    background: url(imges/3132.jpg);
+    background-size: cover;
+    margin-top: 1000px;
+}
+*{
+    padding: 0;
+    margin: 0;
 }
