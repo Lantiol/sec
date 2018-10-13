@@ -1,0 +1,38 @@
+
+.header{
+   position: fixed;
+    background-color: rgb(85, 74, 74);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    padding: 30px 15px;
+    
+}
+.img-logo{
+    height: 100px;
+    width: 100px;
+}
+.menu-nav-element{
+    list-style: none;
+    display: inline-block;
+    margin: 10px ;
+    
+}
+div.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text{
+    margin-top: 164px;
+}
+.menu-nav-link{
+    font-size: 20px;
+}
+.menu-nav-link:link{
+    color: rgb(32, 30, 30);
+}
+.menu-nav-link:visited{
+    color: rgb(32, 30, 30);
+}
