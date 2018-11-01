@@ -1,12 +1,17 @@
    
-/*var height=prompt('Введите рост');
-+height;
-if (typeof height == 'number'){ 
+/*var height=+prompt('Введите рост');
+
+if (parseFloat(+'10.10') ){ 
     alert('ok');
 } else {
     alert('no')
 }
-var weight=prompt('Введите вес');
+var weight=+prompt('Введите вес');
+if (parseFloat(+'10.10') ){ 
+    alert('ok');
+} else {
+    alert('no')
+}
 
 height= Math.pow(height,2);
 var index=weight/height;
@@ -19,8 +24,8 @@ if (index>25){
     alert('В пределах нормы.');
 }
 
-console.log(index);*/
-var c=0;
+console.log(index);
+/*var c=0;
 var a;
 a=+prompt('Введите число');
 c=c+a;
@@ -33,7 +38,7 @@ while(a>0){
     c=c+a;
     console.log(c);
 } 
-console.log(c);
+console.log(c);*/
 
 
 
