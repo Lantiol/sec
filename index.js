@@ -39,6 +39,12 @@ while(a>0){
     console.log(c);
 } 
 console.log(c);*/
+function sayHello(){
+    var name=prompt();
+    alert('Hello, '+name);
+}
+sayHello();
+
 
 
 
