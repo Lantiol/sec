@@ -38,13 +38,13 @@ while(a>0){
     c=c+a;
     console.log(c);
 } 
-console.log(c);*/
+console.log(c);
 function sayHello(){
     var name=prompt();
     alert('Hello, '+name);
 }
 sayHello();
-
+*/
 
 
 
