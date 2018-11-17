@@ -45,6 +45,43 @@ function sayHello(){
 }
 sayHello();
 */
+/*
+function delProd(){
+      
+    var ol= document.getElementsByTagName('ol')[0];
+    var delited=  ol.removeChild(ol.lastElementChild);
+    var ul=document.getElementById('1');
+    ul.appendChild(delited);
+ }
+ function addProd(){
+  var prod=prompt();
+  var ol =document.getElementsByTagName('ol')[0];
+  var new_prod=document.createElement('li');
+  new_prod.innerHTML=prod;
+  ol.appendChild(new_prod);
+
+ }
+ function change(){
+     var h=document.getElementById('2');
+     h.style.color='red';
+     h.style.fontSize = '15px';
+ }
+ var pos=0;
+ var time=setInterval('move();',16.66);
+ function move(){
+     var img=document.getElementById('3');
+     pos +=1;
+     img.style.left =pos +'px'; 
+     if(pos>document.documentElement.clientWidth){
+         pos=0;
+     }
+     var img2=document.getElementById('4');
+  pos +=1;
+  img2.style.left =pos +'px'; 
+  if(pos>document.documentElement.clientWidth){
+      pos=0;
+ }
+ }*/
 
 
 
