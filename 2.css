@@ -1,0 +1,31 @@
+.menu-nav-element{
+    list-style: none;
+    display: inline-block;
+    margin: 10px ;
+}
+.header{
+    position: fixed;
+     background-color: rgba(248, 243, 187, 0.582);
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: 99;
+     height: 70px;
+}
+.log-button{
+    
+    
+    border-radius: 5px;
+    background-color: aqua;
+
+}
+div.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.text-img{
+    height: 50px;
+    width: 100px;
+}
